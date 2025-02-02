@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 12:01:01 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/01 13:09:53 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 20:27:08 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,4 +15,6 @@ int main()
 {
 	ClapTrap obj("raghda");
 	obj.attack("rabwa");
+	obj.takeDamage(3);
+	obj.beRepaired(2);
 }

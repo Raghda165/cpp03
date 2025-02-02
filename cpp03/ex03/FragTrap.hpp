@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 16:08:46 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/01 23:06:01 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 20:42:36 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
  {
 	public :
 	FragTrap(std::string name);
+	FragTrap(const FragTrap &obj);
+	FragTrap & operator=(const FragTrap &other);
 	~FragTrap();
 	void highFivesGuys(void);
  };
