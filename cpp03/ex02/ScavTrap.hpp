@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 13:15:16 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/01 15:30:47 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 21:18:37 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,8 @@ class ScavTrap:public ClapTrap
 		ScavTrap(const ScavTrap &obj);
 		ScavTrap & operator=(const ScavTrap &other);
 		~ScavTrap();
+
 		void guardGate();
+		 void attack(const std::string& target);
+
 };

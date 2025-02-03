@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 13:15:11 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/01 15:39:17 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 21:21:17 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,18 @@ ScavTrap  & ScavTrap:: operator=(const ScavTrap & other)
 ScavTrap::~ScavTrap()
 {
 	std::cout << this ->_name<<" ScavTrap"<<" has been lost and deleted "<<"\n";
+}
+
+void ScavTrap:: attack(const std::string& target)
+{
+	if(_hitpoints<=0 || _energypoints <= 0)
+		std::cout<<"this ScavTrap can not do anything because he has not any hitspoint"<<"\n";
+	else
+	{
+		_energypoints--;
+		std::cout << "ScavTrap "<<this->_name<<" attacks "<<target<<", causing "
+		<<this ->_attackdamage <<" points of damage!"<<"\n";
+	}
 }
 
 void  ScavTrap::guardGate()

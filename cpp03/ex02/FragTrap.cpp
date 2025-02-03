@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 16:08:57 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/02 20:36:49 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 20:49:51 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,5 @@ FragTrap::~FragTrap()
 }
 void FragTrap:: highFivesGuys(void)
 {
-	std::cout <<"High five 🙋🏻‍♀️"<<"\n";
+	std::cout <<"High five "<<"\n";
 }

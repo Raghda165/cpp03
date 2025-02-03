@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 13:15:16 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/02 20:31:12 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/02 21:13:51 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@
 		 ScavTrap(const ScavTrap &obj);
 		 ScavTrap & operator=(const ScavTrap &other);
 		 ~ScavTrap();
+		 
 		 void guardGate();
+		 void attack(const std::string& target);
  };
 #endif

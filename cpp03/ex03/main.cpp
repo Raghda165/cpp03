@@ -6,7 +6,7 @@
 /*   By: ryagoub <ryagoub@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 12:01:01 by ryagoub           #+#    #+#             */
-/*   Updated: 2025/02/01 23:34:21 by ryagoub          ###   ########.fr       */
+/*   Updated: 2025/02/03 12:34:33 by ryagoub          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,4 @@ int main()
 	obj.attack("rabwa");
 	obj.highFivesGuys();
 	obj.whoAmI();
-	// FragTrap obj2(obj);
-	// obj2 = obj;
 }
